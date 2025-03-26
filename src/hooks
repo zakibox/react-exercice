@@ -1,0 +1,35 @@
+// hooks il nous aide a gerer les états du données
+
+useref(), usecontext(),usememo(),useState(),useEffect()
+
+usescrolltotop()
+
+// useState() il déclare état initial d'un variable  
+
+// const [users,SetUsers] = useState([])
+
+// const [produits,setProduits] = useState(users) 
+// const users = [
+//     { id: 1, name: "John", age: 25 },
+//     { id: 2, name: "Jane", age: 30 },
+// ]
+
+// setProduits(...users, newuser)
+useEffect() il est utilisé pour executer une fonction après rafraichir la page 
+
+rest api  il fait la livraison du données d'aprés le backend au frontend 
+(fetch) (axios)
+
+CRUD 
+C Create ajouter
+R Read afficher
+U Update modifier
+D Delete supprimer
+
+
+let produits = []
+produits = ['color','traits'];
+
+const [produits , setProduits] = useState([])
+newproduct = ['color','traits']
+setProduits(...produits, newproduits)
